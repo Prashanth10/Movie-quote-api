@@ -7,5 +7,7 @@ import org.springframework.boot.runApplication
 class MovieQuoteApiApplication
 
 fun main(args: Array<String>) {
+    println("DEBUG: Starting Movie Quote API application...")
 	runApplication<MovieQuoteApiApplication>(*args)
+    println("DEBUG: Movie Quote API application started successfully")
 }
