@@ -212,7 +212,7 @@ class QuoteRepositoryTest {
 
             assertTrue(deleted)
             assertEquals(0, quoteRepository.count())
-            assertNull(quoteRepository.findById(savedQuote.id))
+            assertNull(quoteRepository.findById(savedQuote.id!!))
             println("DEBUG: Delete existing quote test passed")
         }
 
